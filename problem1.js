@@ -4,11 +4,11 @@
 let num=17;
 let c=0;
    for(i=1;i<=num;i++){
-    if (num%i===0)
+    if (num%i==0)
        c=c+1;
        }
-    if(c===2){
-      console.log("Yes it is a prime")
+    if(c==2){
+      console.log("Yes it is a prime number")
     }else{
-      console.log("No it is not a prime")
+      console.log("No it is not a prime number")
     }
